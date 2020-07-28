@@ -33,7 +33,7 @@ public class App extends Application {
                     grid = new GridPane();
 //                    grid.setBackground(new Background(new BackgroundFill(Color.DIMGREY, null, null)));
                     grid.setAlignment(Pos.CENTER);
-//                    blocks = new Block[8][128];
+                    blocks = new Block[8][128];
 
                     editMenu = new Menu("Edit");
 
